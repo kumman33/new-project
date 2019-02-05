@@ -9,7 +9,7 @@ class MobileNumberToWord
      
     #Read dictionary file and hold all values in a array
     dictionary = {}
-    for i in (1..25)
+    for i in (1..30)
       dictionary[i] = []
     end
     file_path = "dictionary.txt"
@@ -50,3 +50,5 @@ end
 
 final_words = MobileNumberToWord.new().letter_combination("6686787825")
 print final_words
+final_words1 = MobileNumberToWord.new().letter_combination("2282668687")
+print final_words1
