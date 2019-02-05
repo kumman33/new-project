@@ -50,5 +50,8 @@ end
 
 final_words = MobileNumberToWord.new().letter_combination("6686787825")
 print final_words
+ 
+puts ""
+
 final_words1 = MobileNumberToWord.new().letter_combination("2282668687")
 print final_words1
