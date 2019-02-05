@@ -19,7 +19,7 @@ class MobileNumberToWord
       dictionary[word.length] << word.chop.to_s.downcase
     end
 
-    keys = numbers.chars.map{|number|letters[number]}
+    keys = numbers.chars.map{|number| letters[number]}
     results = {}
     total_number = keys.length - 1 # total numbers
     #Loop through all letters and get matching records with dictionary
