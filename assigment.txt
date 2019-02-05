@@ -1,0 +1,11 @@
+class MobileNumberToWord
+  def letter_combination
+   start_time = Time.now()
+
+   
+   end_time = Time.now()
+    puts "Time taken for execution of the grogram is #{end_time - start_time}"
+  end
+end
+obj= MobileNumberToWord.new
+obj.letter_combination
